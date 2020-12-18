@@ -1,2 +1,8 @@
 # Caltrain-DataWarehouse
 Business Intelligence and Data Warehousing Project to analyze Caltrain Ridership in the Bay Area
+
+## Project Summary
+### Problem Statement
+Caltrain is one of the busiest commuter rail systems in the San Francisco Bay Area and demand for its service is growing. Caltrain already provides a convenient and cost-effective alternative to driving, connecting passengers' jobs and housing in San Francisco, San Mateo, and Santa Clara counties. In 20 years, the Bay Area’s population is expected to grow by more than 40%, adding 2.4 million residents and 1.3 million jobs. Making sure the influx of people and jobs is met with appropriate transportation and infrastructure investments is key to unlocking the potential of the region. To support a changing region and meet future demand, Caltrain uses historical and current data on total payment, ticket count, and other dimensions for analysis. The management team can better prepare itself for the COVID pandemic and make better business decisions.
+### Solution
+The Caltrain IT Operations team has created a data warehouse to import data sources provided by Caltrain Business Plan. Our first dashboard provides lag measures, which show the payment trend as well as the average ticket count of fare types. The second dashboard shows the lead measures, it presents the information of payment vs fare type, city, and payment type. The last two dashboards provide information about the passenger segmentation overpayment amount by rider type, locations, and direction, as well as the forecast of total payment, and prediction of total payment with and without discounts.
