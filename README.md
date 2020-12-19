@@ -180,12 +180,12 @@ For more precise predictions, we can include price metrics as raw data and give 
 
 # Key Learnings
 1. Keep a simple view of success
-  a. We can easily add more elements(data, fields, tables) but keeping focus on the end goal and not straying too far away from scope and goal.
-  b. This is especially the case for our class time table but in the real world other factors like budget and resources can create challenges.
+  i. We can easily add more elements(data, fields, tables) but keeping focus on the end goal and not straying too far away from scope and goal.
+  ii. This is especially the case for our class time table but in the real world other factors like budget and resources can create challenges.
 2. Be flexible
-  a. We started specifically with clipper cards to be simple but we added to analyze all payment types caltrain accepts to get more diverse comparable data.
+  i. We started specifically with clipper cards to be simple but we added to analyze all payment types caltrain accepts to get more diverse comparable data.
 3. Good to have and must have, always build later
-  a. Weekend data not included. Limitation of our analysis. Will add in the future knowing our work is done successfully for weekday
+  i. Weekend data not included. Limitation of our analysis. Will add in the future knowing our work is done successfully for weekday
 4. Transformations in pentaho was a challenge especially loading date string to date format
 5. Keep in mind the stakeholders
 
