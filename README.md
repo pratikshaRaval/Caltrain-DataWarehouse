@@ -54,7 +54,7 @@ Timeline: Arrived at 4 PM and left at 4:30 PM
 
 ### OLTP Schema Design
 OLTP systems record business interactions as they occur in the day-to-day operation of the organization. This OLTP schema is designed to have the below tables: Employee, Train, Train_Schedule, Station, Ticket
-![OLTP](OLTP_Final.jpeg)
+![OLTP](OLTP_final.jpeg)
 
 ### OLAP Schema Design
 Data warehouse tables: This will be the main Fact & Dimension tables. This Schema will help in planning and problem-solving.
