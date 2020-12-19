@@ -23,7 +23,5 @@ Infrastructure : Clipper card machine, Computer/Phone, Ticket Scanner, Cleaning 
 Additional Information: Cal train stations
 Timeline: Arrived at 4 PM and left at 4:30 PM
 
-| Function |  Passengers  | System    |
-|----------|--------------|-----------|
-|   Tasks  | 1. Plan Trip | Real-time |
+### Swim Lane Diagram
 
