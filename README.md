@@ -24,4 +24,4 @@ Additional Information: Cal train stations
 Timeline: Arrived at 4 PM and left at 4:30 PM
 
 ### Swim Lane Diagram
-
+![SwimLane](SwimLane.png)
