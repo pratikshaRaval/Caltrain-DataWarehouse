@@ -142,3 +142,51 @@ Order of generating data in tables in the data warehouse schema, caltrain_dw.
 ## Fact Table
 
 ![Dim8](Dimension_ETL/FactTable.png)
+
+# Phase 4: Tableau Implementation
+
+## Dashboard 1 – Lag Measures:
+1. Finding payment amount generated for a quarter/year.
+2. Rider type differentiation based on the number of ticket counts – Adult, Disables, Medicare, Senior and Youth.
+3. Average of ticket orders and payment amount per year.
+![Dashboard1](Tableau/LagMeasures.png)
+
+## Dashboard 2 – Lead Measures
+1. The most popular fare types per quarter
+2. The most popular cities per quarter
+3. The most popular payment type per quarter
+4. Average ticket orders per day.
+5. Highest payment amount for the fare type – which fare type that brought the most total payment
+![Dashboard2](Tableau/LeadMeasures.png)
+
+## Dashboard 3 – Descriptive Analytics
+1. Total ticket count by rider types through 2018 – 2020
+2. Passenger’s age distribution
+3. Passenger’s locations by city
+4. Payment received based on direction per year
+![Dashboard3](Tableau/Descriptive.png)
+
+## Dashboard 4- Predictive Analytics
+1. Payment and total ticket count forecast for next 2 quarters
+2. Total payment that is generated With and Without discounts
+![Dashboard4](Tableau/Predictive.png)
+
+# Conclusion
+The business intelligence tools can integrate with many different sources such as csv, excel, text, aws and python scripts, including the data warehouse. The tools provide an easy way to query the data in order to analyze data for trends and insights. It can also make it easy to visualize and share data using dashboards and reports. These three steps, built on top of a good data warehouse foundation, will make it easier to follow through on the core promise of
+business intelligence: providing everyone in your organization with the ability to understand and act on data. It’s good to learn that the visualization needs to present values to the shareholders, rather than just provide some fancy charts.
+
+# Future Enhancements
+For more precise predictions, we can include price metrics as raw data and give discounts on price metrics. We can also import weekend data to make comparisons with weekday data, and come up with more findings.
+
+# Key Learnings
+1. Keep a simple view of success
+  a. We can easily add more elements(data, fields, tables) but keeping focus on the end goal and not straying too far away from scope and goal.
+  b. This is especially the case for our class time table but in the real world other factors like budget and resources can create challenges.
+2. Be flexible
+  a. We started specifically with clipper cards to be simple but we added to analyze all payment types caltrain accepts to get more diverse comparable data.
+3. Good to have and must have, always build later
+  a. Weekend data not included. Limitation of our analysis. Will add in the future knowing our work is done successfully for weekday
+4. Transformations in pentaho was a challenge especially loading date string to date format
+5. Keep in mind the stakeholders
+
+Overall take time to understand the business in the analysis and planning phase as it will provide a sense of understanding and adjustment when met with challenges.
