@@ -1,5 +1,6 @@
 # Caltrain-DataWarehouse
-Business Intelligence and Data Warehousing Project to analyze Caltrain Ridership in the Bay Area
+Business Intelligence and Data Warehousing Project to analyze Caltrain Ridership in the Bay Area 
+Tools: MySQL, Pentaho Integration Tool (ETL), Tableau, AWS Redshift, S3 Storage 
 
 ## Project Summary
 ### Problem Statement
