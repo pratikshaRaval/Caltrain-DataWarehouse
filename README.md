@@ -109,3 +109,36 @@ MySQL Result for Data Source 4: Sample of ticket table with data shown below.
 ### Data Source 5:
 Load data into train_schedule table from train schedule data csv file.
 ![ETL5](ETL5.png)
+
+## Part 2: Load data from the caltrain schema to the data warehouse schema
+Order of generating data in tables in the data warehouse schema, caltrain_dw.
+### Table creation for caltrain_dw schema in below order:
+1. Date
+2. Fare
+3. Rider
+4. Station
+5. Ticket Payment
+6. Ticket Purchase
+7. Train Operation
+8. Fact Caltrain Ticket
+### ETL Transformations for caltrain_dw schema
+## Dimension Tables
+![Dim1](Dimension_ETL/Dim_ETL1.png)
+
+![Dim2](Dimension_ETL/Dim_ETL2.png)
+
+![Dim3](Dimension_ETL/Dim_ETL3.png)
+
+![Dim4](Dimension_ETL/Dim_ETL4.png)
+
+![Dim4-1](Dimension_ETL/Dim_SQL4.png)
+
+![Dim5](Dimension_ETL/Dim_ETL5.png)
+
+![Dim6](Dimension_ETL/Dim_ETL6.png)
+
+![Dim7](Dimension_ETL/Dim_ETL7.png)
+
+## Fact Table
+
+![Dim8](Dimension_ETL/FactTable.png)
