@@ -80,25 +80,25 @@ Table creation for caltrain schema in below order:
 5. Train Schedule
 #### ETL Transformations for caltrain schema
 Data Source 1: Load data into employee table from employee data csv file. Split the name field from the data source and load as first name and last name into the employee table.
-##### Data Source 1:
+### Data Source 1:
 Load data into employee table from employee data csv file. Split the name field from the datasource and load as first name and last name into the employee table.
 ![ETL1](ETL1.png)
 
 MySQL Result for Data Source 1: Sample of employee table with data shown below.
 ![SQL1](SQL1.png)
 
-##### Data Source 2:
+### Data Source 2:
 Load data into station table from station data csv file.
 ![ETL2](Transformation2.png)
 
-##### Data Source 3:
+### Data Source 3:
 Load data into train table from train data excel file.
 ![ETL3](ETL3.png)
 
 MySQL Result for Data Source 3: Sample of train table with data shown below.
 ![SQL3](sql3.png)
 
-##### Data Source 4:
+### Data Source 4:
 Load data into ticket table from ticket data excel file. Transformation does a lookup of the station id from the station table and loads station id as a
 foreign key in the ticket table.
 ![ETL4](ETL4.png)
@@ -106,6 +106,6 @@ foreign key in the ticket table.
 MySQL Result for Data Source 4: Sample of ticket table with data shown below.
 ![SQL4](SQL4.png)
 
-##### Data Source 5:
+### Data Source 5:
 Load data into train_schedule table from train schedule data csv file.
 ![ETL5](ETL5.png)
